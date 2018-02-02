@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.jk_demo_test.CoroutineActivity">
+
+    <TextView
+        android:id="@+id/main_tv_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/main_btn_thread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开启1000线程"/>
+
+    <Button
+        android:id="@+id/main_btn_coroutine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开启1000xie协程"/>
+
+    <Button
+        android:id="@+id/main_btn_thread_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="常见的更新界面的写法"/>
+
+    <Button
+        android:id="@+id/main_btn_coroutine_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用COROUTINE的写法"/>
+
+</LinearLayout>
